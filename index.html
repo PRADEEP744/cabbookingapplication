@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperCab</title>
+    <link rel="icon" href="src/logo.jpg">
+    <link type="text/css" href="index.css" rel="stylesheet">
+   
+    
+    <script>
+     function openNav(){
+        let x = document.getElementById("myNav");
+        if(x.style.display == "block"){
+            x.style.display="none";
+        }
+        else{
+            x.style.display="block";
+        }
+     } 
+     function closeNav(){
+        document.getElementById("myNav").style.display="none";
+     }
+
+   
+    </script>
+</head>
+<body >
+    <div class="maindiv">    
+        <div class="overlay" id="myNav" style="display: none;">
+                <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a>
+                <span class="logo">&#x20B7;U&#x214c;&#x2130;&#x211c; &#x212D;A&#x212c; </span>
+            <div class="overlay-content">
+                <a class="menu" href="#Home" >HOME</a><br>
+                <a class="menu" href="#About">ABOUT</a><br>
+                <a class="menu" href="#Perfect">PERFECT TOUR</a><br>
+                <a class="menu" href="#Contact">CONTACT US</a>
+            </div>
+        </div>
+            <span class="hamburger" onclick="openNav()">&#9776;</span>
+            <span class="logo">&#x20B7;U&#x214c;&#x2130;&#x211c; &#x212D;A&#x212c; </span>
+    </div>
+    <div class="maindiv2" id="Home">
+        <div class="bookingdiv">
+         <div class="div1">
+            <video autoplay loop muted class="videodiv">
+                <source src="src/cabvideo.mp4" type="video/mp4" ></video>
+            <h1 class="h1">Book Your Ride</h1>
+            <form >
+                <label class="userdata"> Pickup Address</label><br>
+                <input class="userdata1" type="text" ><br><br>
+            </form>
+         </div>
+
+         <div>
+            <form >
+                <label  class="userdata"> Drop Address</label><br>
+                <input  class="userdata1" type="text"><br><br>
+            </form>
+         </div>
+
+         <div>
+            <form >
+                <label  class="userdata"> Full Name</label><br>
+                <input  class="userdata1" type="text"><br><br>
+
+                <label  class="userdata"> Mobile Number</label><br>
+                <input  class="userdata1" type="number"><br><br>
+            </form>
+         </div>
+
+        
+
+         <div>
+            <form >
+                <label  class="userdata" > Pickup Date</label><br>
+                <input  class="userdata1" type="date"><br><br>
+                <label  class="userdata" > Pickup Time</label><br>
+                <input  class="userdata1" type="time"><br><br>
+            </form>
+         </div>
+
+         <div>
+            <form >
+                <button class="submitBtn" type="submit" >Submit</button><br>
+            </form>
+         </div>
+
+        </div>
+    </div>
+
+    <div class="maindiv3">
+        <div class="content">
+            <span class="mess">You can book a cab with ease on our website or call us on 9629407073 if you like to discuss <br>
+                   your itinary with our excutives in details.</span>
+
+            <table class="table">
+                <thead class="thead">
+                <td>Vechicle</td>
+                <td>Capacity</td>
+                <td>Long/km</td>
+                <td>Local/km</td>
+                </thead>
+                <tbody class="tbody">
+                    <tr>
+                    <td>SEDAN</td>
+                    <td>2 To 3</td>
+                    <td>Rs.14/-</td>
+                    <td>Rs.15/-</td>
+                    </tr>
+                    <tr>
+                    <td>ETOS</td>
+                    <td>3 To 4</td>
+                    <td>Rs.16/-</td>
+                    <td>Rs.17/-</td>
+                    </tr>
+                    <tr>
+                    <td>SUA</td>
+                    <td>4 To 5</td>
+                    <td>Rs.18/-</td>
+                    <td>Rs.20/-</td>
+                    </tr>
+                    <tr>
+                    <td>INOVA</td>
+                    <td>5 To 6</td>
+                    <td>Rs.22/-</td>
+                    <td>Rs.25/-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="maindiv4" id="About">
+        <div class="About">
+            <h1 class="h2">About SuperCab</h1>
+          <p class="mess2">SuperCab Provides outstation drop taxi in TamilNadu & Bangalore. We are offer top deals at affortable prices.</p>
+          <button class="btn" ><a href="#Home"  class="bookbtn">For Booking Click Here</a></button>
+        </div>
+        <div>
+            <span class="m1">10K  13K  4K</span><br>
+            <span class="m2">Trip-Ride   Happy-Customers  Local-Rental</span><br>
+        </div>
+    </div>
+  
+
+    <div class="maindiv5" id="Perfect">
+        <div class="Find">
+             <h1 class="l1">Find Your</h1>
+             <h1 class="l2">Perfect Tour</h1>
+             <span class="l3">On our website, you can find a trip<br> of your dreem with 100% guarantee.</span>
+             <button class="l4">CALL 9629407073</button>
+        </div>
+    </div>
+
+    <div class="maindiv6">
+        <div class="Clients">
+            <h1 class="c1">What Our Clients Say</h1>
+            <span class="c2">&#9758;</span>
+            <span class="c3">I wanted to thank you very much for my sister
+                 and me. It was amazing and exceeded my expectations! We had a wonderful time and were very pleased.
+            </span>
+          
+        </div>
+    </div>
+
+    <div class="maindiv7" id="Contact">
+        <div >
+         <span class="Contact">Contact Us</span>
+            <div>
+                <p class="paraabout"><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AYZoVhc8hjGA9Qp9DxASI52cZJAPvlh-PZ8yr_nrSBfigC0k7qJuBkrV_-iQJxAr5xgEi6PiDhDe&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-285018971%3A1694621004011406&theme=glif">
+                    <img src="src/email.png" alt="mail" width="30px" height="20px"></a> SuperCab@gmail.com</p>
+            </div>
+            <div>
+                <p class="paraabout1"><a href="https://www.facebook.com"><img src="src/Facebook-Logo.png" alt="Facebook-Logo" width="30px" height="20px"></a> SuperCab23</p>
+            </div>
+            <div>
+                <p class="paraabout2"><a href="https://www.instagram.com/accounts/login/?hl=en"><img src="src/insta.png" alt="insta" width="30px" height="20px"></a>234SuperCab</p>
+            </div>
+            <div>
+                <p class="paraabout3"><a href="https://web.whatsapp.com"><img src="src/WhatsApp-logo.png" alt="whatsapp" width="30px" height="20px"></a>SuperCab</p>
+            </div>
+            <span class="c4">SuperCab&copy;2024.All Rights are Reserved</span>
+        </div>
+    </div>
+
+    
+</body>
+</html>

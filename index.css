@@ -1,0 +1,361 @@
+
+.maindiv{
+    width: 50%;
+    padding: 35% 25%;
+    position: relative;
+    background-image: linear-gradient(to right,rgb(229, 89, 239),rgb(89, 114, 239),rgb(190, 68, 239),rgb(89, 114, 239),rgb(229, 89, 239));
+
+} 
+
+.overlay{
+    height: 50%;
+    z-index: 1;
+    left:1px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: absolute;
+    top: 1px;
+    background-color:rgb(156, 97, 244);
+    box-shadow: 2px 2px 5px rgb(6, 6, 6) ;
+    text-decoration: none;
+    font-size: 36px;
+    text-align: center;
+    color:whitesmoke;
+    text-shadow: 1px 1px 3px red;
+    display: block;
+    transition: 0.3s;
+
+}
+.overlay-content{
+    position: relative;
+    top: 10%;
+    font-family: 'Times New Roman';
+    float: left;
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 36px;
+    color:whitesmoke;
+    display: block;
+    transition: 0.3s;
+}
+.menu{
+    float: left;
+    border-bottom: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.closebtn{
+    position: absolute;
+    top: 1.5%;
+    right:10%;
+    color: whitesmoke!important;
+    float: right;
+    text-decoration: none;
+}
+.overlay a:hover{
+    color: rgb(162, 238, 118);
+}
+.overlay a:focus{
+    color:white;
+    background-color: rgb(236, 42, 201);
+    
+}
+
+
+@media screen and (max-width:500px) {
+   .overlay a{ font-size: 20px;}
+   .overlay.closebtn{
+    font-size: 40px;
+    top: 10px;
+    right: 35px;
+   }
+}
+.hamburger{
+    font-size: 35px;
+    cursor: pointer;
+    position:absolute;
+    top: 2%;
+    left: 2%;
+    color: whitesmoke;
+   }
+.logo{
+    font-size: 35px;
+    cursor: pointer;
+    position:absolute;
+    top: 2.5%;
+    left: 5%;
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px rgb(26, 26, 250),1px 1px 5px blue,1px 0px 5px blue;
+
+   }
+
+.videodiv{
+  width:100%;
+  border-radius: 6%;
+
+}
+.maindiv2{
+    padding: 34% 3%;
+    position: absolute;
+    left: 17%;
+    top: 14%;
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 4px whitesmoke ;
+}
+
+.bookingdiv{
+    background-color:whitesmoke;
+    position: absolute;
+    left: 21%;
+    top: 6%;
+    width: 40%;
+    padding: 4% 10%;
+    background-image: linear-gradient(to right,rgb(228, 83, 146),rgb(190, 68, 239));
+    box-shadow: 2px 2px 20px black ;
+}
+.h1{
+    text-align: center;
+    color:whitesmoke;
+    text-shadow: 3px 3px 8px red;
+}
+.submitBtn{
+    margin-left: 20%;
+    color:whitesmoke;
+    text-shadow: 2px 2px 5px rgb(236, 42, 201);
+    background-color: rgb(212, 10, 134);
+    width: 60%;
+    font-family: 'Times New Roman';
+    font-size: 200%;
+    padding: 1% 2%;
+}
+.userdata{
+   margin-left: 15%;
+   color: whitesmoke;
+   text-shadow: 2px 2px 5px rgb(26, 26, 250),2px 2px 5px blue,2px 2px 5px blue;
+   font-size: 150%;
+}
+.userdata1{
+    margin-left: 15%;
+    font-family: 'Times New Roman';
+    font-size: 130%;
+    border: 2px solid rgb(120, 76, 253);
+ }
+ .content{
+    position: relative;
+    padding-bottom: 30%;
+    background-image: linear-gradient(to right,rgb(229, 89, 239),rgb(89, 114, 239),rgb(190, 68, 239),rgb(89, 114, 239),rgb(229, 89, 239));
+    
+ }
+.mess{
+    width: 80%;
+    font-size: 150%;
+    top: 10%;
+    margin-left: 20%;
+    position: absolute;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.table{
+    position: absolute;
+    top: 10%;
+    border: 2px solid rgb(3, 9, 116);
+    width: 50%;
+    margin: 5% 25%;  
+}
+tbody{
+    border: 3px solid rgb(2, 7, 90);
+    background-color:  rgb(156, 7, 153);
+    font-size: 200%;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+thead{
+    background-color:  rgb(156, 7, 153);
+    font-size: 200%;
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+
+
+.maindiv4{
+    position: relative;
+    width: 90%;
+    background-image: url('src/img0.jpg');
+    background-repeat: no-repeat;
+    padding: 12% 4%;
+}
+.h2{
+ position: absolute;
+ top: 20%;
+ left: 230%;
+ width: 200%;
+}
+.About{
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+}
+
+.mess2{
+    position: absolute;
+    display: inline;
+    width: 350%;
+    font-size: 180%;
+    top: 150%;
+    margin-left: 220%;
+    color:black;
+}
+
+.btn{
+   
+    padding: 3% 3%;
+    width: 130%;
+    font-size: 150%;
+    margin-top: 10%;
+    margin-left: 430%;
+    background-color: green;
+    color: whitesmoke;
+}
+.btn:hover{
+    background-color: orangered;
+}
+.m1{
+    position: absolute;
+  word-spacing: 150px;
+  font-size: 250%;
+  margin-left: 50%;
+  top: 60%;
+  font-weight: bolder;
+  color: rgb(8, 177, 8);
+}
+.m2{
+    position: absolute;
+    word-spacing: 60px;
+    font-size: 150%;
+    margin-left: 50%;
+    top: 75%;
+    font-weight: bold;
+    
+  }
+
+.maindiv5{
+    position: relative;
+    width: 88%;
+    padding: 20% 6%;
+    background-color:lightgray;
+    color: crimson;
+
+}
+.l1{
+    position: absolute;
+    left: 42%;
+    top: 11%;
+    font-size: 250%;
+}
+.l2{
+    position: absolute;
+    left: 33%;
+    top: 16%;
+    font-size: 500%;
+    font-family: cursive;
+}
+.l3{
+    position: absolute;
+    left: 33%;
+    top: 48%;
+    font-size: 220%;
+}
+.l4{
+    position: absolute;
+    background-color: rgb(8, 177, 8);
+    color: white;
+    padding: 1% 2%;
+    font-size: 130%;
+    top: 75%;
+    left: 41%;
+    box-shadow: 1px 2px 3px black;
+}
+
+.maindiv6{
+    position: relative;
+    width: 88%;
+    padding: 12% 6%;
+   
+}
+.c1{
+    position: absolute;
+    font-size: 240%;
+    top: 3%;
+    left: 15%;
+}
+
+.c2{
+    position: absolute;
+    font-size: 300%;
+    top: 26%;
+    left: 20%;
+    color: rgb(6, 144, 6);
+}
+.c3{
+    position: absolute;
+    font-size: 160%;
+    width: 60%;
+    top: 30%;
+    left: 24%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+
+.maindiv7{
+    background-color: rgb(215, 230, 230);
+    position: relative;
+    width: 88%;
+    padding: 12% 6%;
+}
+.Contact{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    font-size: 250%;
+    font-weight:bolder;
+}
+.paraabout{
+    position: absolute;
+    left: 24%;
+    top: 40%;
+    font-size: 150%;
+}
+.paraabout1{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-size: 150%;
+}
+.paraabout2{
+    position: absolute;
+    left: 24%;
+    top: 60%;
+    font-size: 150%;
+}
+.paraabout3{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    font-size: 150%;
+}
+.c4{
+    position: absolute;
+    width: 45%;
+    font-size: 150%;
+    top: 90%;
+    margin-left: 30%; 
+}
+.bookbtn{
+    text-decoration: none;
+    color: white;
+}
